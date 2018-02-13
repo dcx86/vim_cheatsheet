@@ -82,6 +82,8 @@ Command | Description | Hint
 `:set nohls` nohlsearch` | disable highlight search |
 `:set is` `incsearch` | set incremental search | show partial matches for a search phrase
 `:set nois` noincsearch` | disable incremental search |
+`:set spell spelllang=en_us` | check for spelling | `:set nospell` disable spelling
+`:set number` | enable line numbers | `:set nonumber` disable line numbers
 
 <h3>External Commands</h3>
 
