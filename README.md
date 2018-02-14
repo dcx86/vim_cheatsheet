@@ -1,6 +1,6 @@
 # Vim Cheatsheet
 
-This is a "cheat sheet" of Vim commands I curently know and use:
+This is a "cheat sheet" of Vim commands I currently know and use:
 
 <h3>Basic Commands</h3>
 
@@ -18,9 +18,9 @@ Command | Description | Hint
 Command | Description | Hint
 ------------ | ------------- | -------------
 `h` `left arrow` | move the cursor to the left | the `h` key is at the left and moves left
-`j` `down arrow` | move the cursor down | the `j` key looks like a down arror
+`j` `down arrow` | move the cursor down | the `j` key looks like a down arrow
 `k` `up arrow` | move the cursor up |
-`l` `right arrow` | move the cursor to the right | the `l` key is a the right and moves right
+`l` `right arrow` | move the cursor to the right | the `l` key is at the right and moves right
 `w` | move the cursor one word forward | `#w` move cursor # words forward <br>`#` can be any number
 `e` | move the cursor to the end of the word | `#e` move cursor at the end of # words <br>`#` can be any number
 `0` | move the cursor to the start of the line |
@@ -33,7 +33,7 @@ Command | Description | Hint
 Command | Description | Hint
 ------------ | ------------- | -------------
 `:q` | exit editor | if there are no changes made
-`:q!` | exit editor, discard changes | `q` stands for quit and `!` stands for dicard changes
+`:q!` | exit editor, discard changes | `q` stands for quit and `!` stands for discard changes
 `:wq` | exit editor, save changes | `w` stands for write and `q` stands for quit
 
 <h3>Text Editing</h3>
@@ -50,7 +50,7 @@ Command | Description | Hint
 `dd` | delete a whole line | `#dd` delete # whole lines, `#`  can be replaced with any number
 `u` | undo the last command | `U` to fix the whole line
 `Ctrl+r` | redo the last undo |
-`p` | put previously deleted or copyied text after the cursor | `p` stands for paste
+`p` | put previously deleted or copied text after the cursor | `p` stands for paste
 `r` | replace the character under the cursor | `R` replace multiple characters under the cursor
 `c` | change from the cursor to where the motion takes you | `ce` change end <br>`cw` change word <br>`c$` change line
 `o` | open a line bellow the cursor | `O` open a line above the cursor
@@ -64,13 +64,13 @@ Command | Description | Hint
 `/word` | search forwards for word or phrase |
 `?word` | search backwards for word or phrase |
 `n` | search again in forwards direction |
-`N` | search agasin in backwards direction |
-`%` | find matching paranthesis or bracket |
+`N` | search again in backwards direction |
+`%` | find matching parenthesis or bracket |
 `:s/old/new` | substitute `old` word with `new` word in the current line |
-`:s/old/new/g` | substitute every occurence in the whole line |
+`:s/old/new/g` | substitute every occurrence in the whole line |
 `:#,#s/old/new/g` | substitute `old` word with `new` word in # lines | `#` can be any line number
-`:%s/old/new/g` | substitute every occurence in the whole file |
-`:%s/old/new/gc` | find every occurence in the whole file with a prompt <br>whether to substittute or not | `c` stands for confirmation
+`:%s/old/new/g` | substitute every occurrence in the whole file |
+`:%s/old/new/gc` | find every occurrence in the whole file with a prompt <br>whether to substitute or not | `c` stands for confirmation
 
 <h3>Set Options</h3>
 
