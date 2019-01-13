@@ -1,8 +1,6 @@
 # Vim Cheatsheet
 
-This is a "cheat sheet" of Vim commands I currently know and use:
-
-<h3>Basic Commands</h3>
+<h3>Basic Console Commands</h3>
 
 Command | Description | Hint
 ------------ | ------------- | -------------
